@@ -90,7 +90,7 @@ class _PokemonDetailsScreenState extends State<PokemonDetailsScreen> {
               ),
             ),
             Text(
-              '⚡ ' + widget.weight,
+              '⚡ ' + widget.weight + ' KG',
               style: TextStyle(
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
